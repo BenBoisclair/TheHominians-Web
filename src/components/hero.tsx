@@ -1,3 +1,4 @@
+import { THE_HOMINIANS } from "@/constants";
 import Image from "next/image";
 
 export default function Hero() {
@@ -15,18 +16,9 @@ export default function Hero() {
             className="mb-4"
           />
           <h1 className="text-3xl font-black">THE HOMINIANS</h1>
-          <span className="font-bold">
-            A team with dreams to heighten the lives of others.
-          </span>
+          <span className="font-bold">{THE_HOMINIANS.short_description}</span>
         </div>
-        <span className=" max-w-[800px]">
-          Consisting of five co-founders, The Hominians holds one aim in common:
-          to make an impact on society, especially those often neglected by the
-          authority. To accomplish it, we have launched an online marketing
-          platform for vendors stationed at Thai local markets named “TasteMap”,
-          which helps them communicate with English-speaking tourists and manage
-          their finances.
-        </span>
+        <span className=" max-w-[800px]">{THE_HOMINIANS.description}</span>
         <span>Since 2021.</span>
       </div>
     </section>

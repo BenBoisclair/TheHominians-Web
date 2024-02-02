@@ -73,5 +73,5 @@ export const THE_HOMINIANS = {
   short_description: "A team with dreams to heighten the lives of others.",
   contact: "contact@taste-map.com",
   description:
-    "Consisting of five co-founders, The Hominians holds one aim in common: to make an impact on society, especially those often neglected by the authority. To accomplish it, we have launched an online marketing platform for vendors stationed at Thai local markets named “TasteMap”, which helps them communicate with English-speaking tourists and manage their finances.",
+    "Consisting of six co-founders, The Hominians holds one aim in common: to make an impact on society, especially those often neglected by the authority. To accomplish it, we have launched an online marketing platform for vendors stationed at Thai local markets named “TasteMap”, which helps them communicate with English-speaking tourists and manage their finances.",
 };
