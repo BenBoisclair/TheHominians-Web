@@ -51,9 +51,21 @@ export const FOUNDERS = [
 ];
 
 export const SOCIAL_MEDIA = [
-  { link: "", name: "Facebook", image: "/social_media/facebook.png" },
-  { link: "", name: "Instagram", image: "/social_media/instagram.png" },
-  { link: "", name: "LinkedIn", image: "/social_media/linkedin.png" },
+  {
+    link: "https://www.facebook.com/TheHominians/",
+    name: "Facebook",
+    image: "/social_media/facebook.png",
+  },
+  {
+    link: "https://www.instagram.com/thehominians/?hl=en",
+    name: "Instagram",
+    image: "/social_media/instagram.png",
+  },
+  {
+    link: "https://www.linkedin.com/company/carterapp/",
+    name: "LinkedIn",
+    image: "/social_media/linkedin.png",
+  },
 ];
 
 export const THE_HOMINIANS = {
