@@ -44,7 +44,7 @@ export const FOUNDERS = [
   {
     name: "Tanatat Khuttapan",
     role: "Chief Design Officer",
-    image: "/team_members/nona.JPG",
+    image: "/team_members/nona.jpg",
     description:
       "A third-year Commarts student at Chulalongkorn university who loves to do all things related to art.",
   },
