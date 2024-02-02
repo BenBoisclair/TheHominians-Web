@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <div className="px-4 md:px-32">
       <div>
-        <Link href={"/"} className="flex gap-2 items-center">
+        <Link
+          href={"/"}
+          className="flex gap-2 items-center hover:animate-bounce">
           <ArrowUp size={18} />
           Back to top
         </Link>

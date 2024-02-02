@@ -21,6 +21,11 @@ export default function Hero() {
         <span className=" max-w-[800px]">{THE_HOMINIANS.description}</span>
         <span>Since 2021.</span>
       </div>
+      <div className="absolute left-0 top-16 md:top-24 w-full h-4/5 flex flex-col">
+        <div className="background-block w-[115px] h-[110px] absolute bottom-0 right-0 rounded-lg md:w-[210px] md:h-[350px]" />
+        <div className="background-block w-[200px] h-[160px] absolute right-0 rounded-lg md:w-[210px]" />
+        <div className="background-block w-[200px] h-[160px] absolute md:right-60 rounded-lg md:w-[210px] hidden md:flex" />
+      </div>
     </section>
   );
 }

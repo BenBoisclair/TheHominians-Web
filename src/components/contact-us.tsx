@@ -15,16 +15,16 @@ export default function ContactUs() {
             If you wish to tell us about anything – from funding to
             opportunities – please feel free to let us know via our email:
           </span>
-          <span>
-            <strong>contact@taste-map.com.</strong>
-          </span>
+          <Link href="mailto:contact@taste-map.com">
+            <strong>contact@taste-map.com</strong>
+          </Link>
           <span>
             Links to our social media, on which you can reach out to us as well,
             are listed below:
           </span>
           <div className="flex gap-4 mt-8">
             {SOCIAL_MEDIA.map((media, key) => (
-              <Link href={media.link} key={key}>
+              <Link href={media.link} key={key} target="_blank">
                 <Image
                   src={media.image}
                   alt={media.name}

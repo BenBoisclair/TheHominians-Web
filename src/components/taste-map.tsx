@@ -7,11 +7,11 @@ export default function TasteMap() {
     <section id="TasteMap" className="px-4 md:px-32 flex flex-col">
       <div className="border-white border-t-2 py-2">
         <div className="flex justify-between items-center">
-          <span className="text-2xl font-bold">TASTEMAP</span>
+          <span className="text-2xl font-bold text-yellow">TASTEMAP</span>
           <Link
             href={`https://www.taste-map.com`}
             target="_blank"
-            className="flex items-center gap-1">
+            className="flex items-center gap-1 hover:animate-bounce">
             Visit the website
             <ArrowRight size={20} />
           </Link>

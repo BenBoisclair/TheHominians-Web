@@ -23,3 +23,69 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.background-block {
+  background-color: #121212;
+  opacity: 0.2;
+  background-image: linear-gradient(
+      30deg,
+      #fafafa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #fafafa 87.5%,
+      #fafafa
+    ),
+    linear-gradient(
+      150deg,
+      #fafafa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #fafafa 87.5%,
+      #fafafa
+    ),
+    linear-gradient(
+      30deg,
+      #fafafa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #fafafa 87.5%,
+      #fafafa
+    ),
+    linear-gradient(
+      150deg,
+      #fafafa 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #fafafa 87.5%,
+      #fafafa
+    ),
+    linear-gradient(
+      60deg,
+      #fafafa77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #fafafa77 75%,
+      #fafafa77
+    ),
+    linear-gradient(
+      60deg,
+      #fafafa77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #fafafa77 75%,
+      #fafafa77
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.background-wavy {
+  background-color: #121212;
+  opacity: 0.2;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #121212 40px
+    ),
+    repeating-linear-gradient(#fafafa55, #fafafa);
+}
